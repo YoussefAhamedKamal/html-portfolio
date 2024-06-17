@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imgbar>img{
+    vertical-align: middle;
+    width:1349px;
+}
+body{
+    background-color: white;
+    
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    
+    nav>ul,
+    .listgallery,
+.footerlist{
+    display: flex;
+    justify-content: flex-start ;
+    border-bottom: 1px solid black;
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+.listgallery{
+    border-bottom: 1.5px solid rgb(207, 205, 205);
+}
+nav li,
+.listgallery>li,
+.footerlist>li{
+    list-style: none;
+    padding-right: 3%;
+    padding-bottom:0.9% ;
+    
+}
+.gallery li{
+    padding-right: 1%;
+}
+footer>img{
+width: 97%;
+padding-left: 20px;
+}
+.footerlist{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-top:1px solid rgb(207, 205, 205) ;
+    border-bottom:1px solid rgb(207, 205, 205) ;
+    margin-top: 1%;
+}
+.img88,
+.img90{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.img90{
+    margin-right: none;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.head3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.itemcontent{
+    display: flex;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.heroimg{
+    width: 255px;
+    height: 160px;
+    flex: 0 0 auto;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-top: 16px;
+}
+.IMAGE{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    margin: 10px;
+}
+.archive{
+    margin: 0.6%;
+}
+.img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+#pdf>li{
+    list-style: none;
+}
+.infolist{
+    list-style: none;
+}
+
